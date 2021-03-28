@@ -16,8 +16,6 @@ section .text
 _main:
 	mov rax, 84
 	mov rdi, path
-	mov rsi, cbon
-	mov rdx, cbon_len
 	syscall
 	jmp _exit
 
