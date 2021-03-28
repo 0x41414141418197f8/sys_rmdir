@@ -5,7 +5,7 @@ global _main
 
 section .rodata
 
-	path db 'ez', 0
+	path db 'repértoire a suprimmé', 0
 
 	cbon db 'fait.', 0
 	cbon_len equ $-cbon
